@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 2px solid red;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    /* overflow: auto; */
+}
+
+.split-1 {
+    height: 100%;
+    width: 40%;
+    overflow: hidden;
+    position: relative;
+}
+
+.split-2 {
+    height: 100%;
+    width: 60%;
+}
+
+.picture-logo {
+    position: relative;
+}
+
+.picture-logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.logo-container {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    top: 10px;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+}
+
+.logo-container span {
+    color: white;
+    width: 50%;
+    font-size: 50px;
+}
+
+.logo {
+    border: 2px solid black;
+    opacity: 0.5;
+    height: 50%;
+    width: 50%;
+}
+
+.message {
+    height: 40%;
+    position: relative;
+}
+
+.message span {
+    position: absolute;
+    top: 150px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.form {
+    height: 40%;
+    /* position: relative; */
+}
+
+form {
+    position: relative;
+    /* height: 200px; */
+    display: flex;
+}
+
+.account {
+    height: 20%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 25%; 
+    margin: 5px;
+}
+
+.first {
+    position: absolute;
+    top: 45px;
+    left: 50px;
+}
+
+.last {
+    position: absolute;
+    top: 45px;
+    left: 340px;
+}
+
+.email {
+    position: absolute;
+    top: 105px;
+    left: 50px;
+}
+
+.phone {
+    position: absolute;
+    top: 105px;
+    left: 340px;
+}
+
+.password {
+    position: absolute;
+    top: 165px;
+    left: 50px;
+}
+
+.confirm {
+    position: absolute;
+    top: 165px;
+    left: 340px;
+}
+
+.account {
+    position: relative;
+}
+
+h2 {
+    position: absolute;
+    top: 15px;
+    left: 55px;
+}
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    background-color: olive;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
